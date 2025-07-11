@@ -1,0 +1,166 @@
+.login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto; 
+}
+
+
+.login input{
+    margin: 14px;
+    width: 330px;
+    background-color: #eee;
+    padding: 10px;
+    border: 1px solid black
+;
+}
+
+
+
+.login button{
+    width: 330px;
+    padding: 10px;
+}
+
+
+.login .google {
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.login .apple{
+    border-radius: 5px;
+    border: none;
+}
+
+.login p {
+    margin-top: 25px;
+    color: #6B6B6B;
+    text-align: center; 
+    font-size: 14px; 
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 15px 0;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.separator:not(:empty)::before {
+    margin-right: 10px;
+}
+
+.separator:not(:empty)::after {
+    margin-left: 10px;
+}
+
+.separator span {
+    color: #6B6B6B;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.continue{
+    margin-left: 15px;
+    background-color: black;
+}
+
+
+/* login -verification */
+
+.log-verfify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.log-verfify h2{
+    margin-left: -8%;
+}
+.log-verfify p{
+    margin-left: -5%;
+}
+
+.otp-input input{
+    height: 45px;
+    width: 45px;
+    margin: 7px;
+    border-radius:8px;
+    background-color:#eee;
+    border: none;
+    text-align: center;
+
+}
+
+.otp-input input[type=text]:focus{
+    background-color: white;
+}
+
+.log-verfify .resend{
+    margin-top: 40px;
+    margin-left: 0%;
+    border: none;
+    border-radius: 15px;
+    background-color: #eee;
+    height: 40px;
+    color: black;
+    font-weight:500;
+    padding: 8px;
+
+}
+
+
+.back{
+    border: none;
+    border-radius: 35px;
+    background-color: #eee;
+    margin-top: 40px;
+    margin-left: 0%;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.next{
+    color: #A6A6A6;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    margin-top: -14%;
+    background-color: #eee;
+    margin-left: 280px;
+    height: 50px;
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.next:hover{
+    background-color: black;
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+}

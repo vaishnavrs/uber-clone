@@ -1,0 +1,18 @@
+# Python virtual environment
+backend/ubenv/
+
+# Django stuff:
+*.pyc
+__pycache__/
+*.sqlite3
+*.log
+
+# Environment variables
+.env
+
+# Node dependencies
+uber-frontend/node_modules/
+
+# OS junk files
+.DS_Store
+Thumbs.db
